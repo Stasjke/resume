@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #ddd;
+    font-size:  16px;
+    font-weight: normal;
+}
+.info-text p1{
+    color:green;
+    }
+.info-text p{
+    color:#33acca;
+    font-style: italic;
+}
+
+.table-head {
+    color:rgb(76, 177, 76);
+}
+.imya {
+    color:red;
+    font-style: italic;
+}
+.pochta {
+    color:blue;
+}
+.hobby{
+    color:rgb(80, 80, 15);
+}
