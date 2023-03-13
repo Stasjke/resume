@@ -1,80 +1,81 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="stanislav, cv, resume, site, constructor, IT, CSS, HTML">
-    <meta name="description" content="Сайт - резюме Станислава Рязанцева">
-    <title>Stanislav Resume</title>
-    <script type="text/javascript" src="Папка_с_плеером/файл_скрипта.js"></script>
+    <title>Resume Stanislav</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="info">
-        <img src="imgs/photoprofile.jpg" width="250" alt="this is I">
-        <div class="info-text">
-            <h1>Станислав Рязанцев</h1>
-                <p1>Начинающий <strong>разработчик</strong>  на <em>html,css,python,js</em> </p1>
-                <p>Люблю экстремальные виды спорта</p>
-        
-        <h4>Список социальных сетей:</h4>
-        <a href="https://vk.com/stasjk" target="_blank">VK</a>
-        |<a href="http://t.me/Stasjke_r" target="_blank">Telegram</a>
+
+    <div class="container">
+
+        <div class="info">
+            <img class="avatar" src="avatar.jpg" alt="Stanislav">
+            <div class="info-text box">
+                <h1>Stanislav Ryazantsev</h1>
+                <p>Начинающий разработчик</p>
+                <br>
+                <p>Контактные данные:</p>
+                <p>+7-913-585-7208</p>
+                <a href="https://vk.com/stasjk" target="_blank">VK</a>
+                |<a href="http://t.me/Stasjke_r" target="_blank">Telegram</a>
+            </div>
         </div>
+        <div class="card bg-second">
+            <h2>Language</h2>
+            <ol>
+                <li>English : advanced</li>
+                <li>Russian : идеалити епта</li>
+                <li>German : sprechen good deutsch</li>
+            </ol>
+        </div>
+        <div class="card">
+            <h2>Working experience</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th align="center" style="border: none">Название</th>
+                        <th align="center" style="border-top:none">Должность</th>
+                        <th align="center" style="border: none">Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="border-left:none">ООО «КРАМЗ»</td><td>Пирометрист</td><td style="border-right:none">20.02.2017- 3.12.2018 </td>
+                    </tr>
+                    <tr>
+                        <td style="border:none">ООО «КРАСЦВЕТМЕТ»</td><td style="border-bottom:none;">Наладчик КИПиА</td><td style="border:none">5.12.2018-по настоящее время...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <form action="/" class="form">
+
+            <h2>Связаться со мной</h2>
+      
+            <div class="form-row">
+      
+              <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+              </div>
+      
+              <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <label for="message">Ваше сообщение:</label>
+              <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+      
+            <input class="btn" type="submit" value="Отправить!">
+        </form>
     </div>
-<h4>Мои хобби</h4>
-    <div class="hobby">
-    <ul>
-        <li>Экстремальный спорт</li>
-        <li>Кино</li>
-        <li>Кушац</li>
-    </ul>
-    </div>
-<h4>Опыт работы</h4>
-    <div class="table">
-        <table>
-            <thead class="table-head">
-            <tr>
-                <td>Имя</td>
-                <td>Возраст</td>
-                <td>Должность</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Станислав</td>
-                <td>28</td>
-                <td>сатана</td>
-            </tr>
-            <tr>
-                <td>Вика</td>
-                <td>1</td>
-                <td>подстилка сатаны</td>
-            </tr>
-        </tbody>
-        </table>
-    </div>
-    <!-- <a href="videoresume.html" target="_blank">ТОПОВОЕ ВИДЕО С МОЕЙ СЛАДКОЙ ЖОПКОЙ!</a>
-    <script type="text/javascript">
-        flowplayer("player", "http://адрес_сайта/Папка_с_плеером/файл_плеера.swf");
-        </script> -->
-    <h4>Связаться со мной</h4>
-    <form>
-        <div class="imya">
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name" placeholder="Введите имя">
-        </div>
-        <div class="pochta">
-            <label for="email">Ваш email:</label>
-            <input type="email" id="email" placeholder="Введите email">
-        </div>
-        <div>
-            <label for="message">Ваше сообщение:</label>
-            <br>
-            <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
-        </div>
-        <input type="submit" value="Отправить!">
-    </form>
 </body>
 </html>
